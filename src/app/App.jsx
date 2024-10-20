@@ -9,7 +9,7 @@ import {
 import Home from '../pages/Home/Home'
 import Error from '../pages/Error/Error'
 import Login from '../pages/Login/Login'
-import './App.css'
+
 import ProtectedRoute from '../components/protectedRoute/ProtectedRoute'
 import Dashboard from '../pages/Dashboard/Dashboard'
 

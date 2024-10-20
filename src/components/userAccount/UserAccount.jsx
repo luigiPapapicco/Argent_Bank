@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useSelector } from 'react-redux'
 import AccountSection from '../accountSection/AccountSection'
 import userDataBank from '../../data/argentBankData.json'
@@ -9,10 +9,10 @@ function UserAccount() {
   // Récupérer les informations utilisateur depuis Redux
   const user = useSelector((state) => state.auth.user)
 
-  useEffect(() => {
-    // Log détaillé pour vérifier l'état actuel de l'utilisateur dans Redux
-    console.log('User in UserAccount:', user)
-  }, [user])
+  // useEffect(() => {
+  //   // Log détaillé pour vérifier l'état actuel de l'utilisateur dans Redux
+  //   console.log('User in UserAccount:', user)
+  // }, [user])
 
   const [isEditing, setIsEditing] = useState(false)
 

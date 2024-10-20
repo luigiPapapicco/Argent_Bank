@@ -3,7 +3,6 @@ import NavBar from '../../components/navBar/NavBar'
 import UserAccount from '../../components/userAccount/UserAccount'
 
 function Dashboard() {
-  console.log('Dashboard component is rendered') // Ajoute ce console.log pour tester
   return (
     <>
       <header>

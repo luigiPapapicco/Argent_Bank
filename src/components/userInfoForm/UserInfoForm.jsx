@@ -33,9 +33,6 @@ function UserInfoForm({ onSave, onCancel }) {
         userName: username,
       }).unwrap()
 
-      // Vérifiez le retour de l'API
-      console.log('Updated user response:', updatedUser)
-
       // Conserver le token actuel dans localStorage et Redux
       const token = localStorage.getItem('token') // Récupérer le token depuis localStorage
 
